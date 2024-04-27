@@ -3,7 +3,7 @@ const chalk = require('chalk')
 
 //contact details
 global.ownernumber = ['60103239045']
-global.ownername = "MR.COLUGO"//owner name
+global.ownername = "COLUGO"//owner name
 global.location = "MALAYSIA"
 
 global.botname = 'COLUGO' //name of the bot
