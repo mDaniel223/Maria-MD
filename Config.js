@@ -2,11 +2,11 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernumber = ['60103239045']
+global.ownernumber = ['+60 10-323 9045']
 global.ownername = "COLUGO"//owner name
-global.location = "MALAYSIA"
+global.location = "Johor, Malaysia"
 
-global.botname = 'COLUGO' //name of the bot
+global.botname = 'COLUGODAN' //name of the bot
 
 //sticker details
 global.stickername = 'COLUGO'
