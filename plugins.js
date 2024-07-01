@@ -24,7 +24,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "919931122319"
+let phoneNumber = "+60 10-323 9045"
 let owner = JSON.parse(fs.readFileSync('./Gallery/database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -42,7 +42,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
       logger: pino({ level: 'silent' }),
       printQRInTerminal: !pairingCode, // popping up QR in terminal log
       mobile: useMobile, // mobile api (prone to bans)
-      browser: Browsers.ubuntu('Chrome'), // for this issues https://github.com/WhiskeySockets/Baileys/issues/328
+      browser: Browsers.ubuntu('Debian 64'), // for this issues https://github.com/WhiskeySockets/Baileys/issues/328
       auth: state,
       markOnlineOnConnect: true, // set false for offline
       generateHighQualityLinkPreview: true, // make high preview link
